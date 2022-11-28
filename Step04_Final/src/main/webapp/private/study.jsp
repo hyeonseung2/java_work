@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-	//로그인된 아이디가 있느닞 확인해서
+	//로그인된 아이디가 있는지 확인해서
 	String id=(String)session.getAttribute("id");
 %>
 <!DOCTYPE html>
