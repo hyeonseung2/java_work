@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div>
+	<%@ include file="/include/navbar.jsp" %>
 	<table class="table table-success table-striped">
 	  <thead>
 	    <tr>
@@ -37,7 +37,6 @@
 	    </tr>
 	  </tbody>
 	</table>
-	</div>
 	<%@ include file="/include/footer.jsp" %>
 </body>
 </html>
