@@ -59,7 +59,7 @@
 <body>
    <div class="container">
       <a href="${pageContext.request.contextPath }/cafe/private/insertform.jsp">새글 작성</a>
-      <h3>카페 글 목록 입니다.</h3>
+      <h3>Q & A</h3>
       <table class="table table-striped">
          <thead class="table-dark">
             <tr>

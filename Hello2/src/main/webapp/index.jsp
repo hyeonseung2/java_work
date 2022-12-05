@@ -38,8 +38,8 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="${pageContext.request.contextPath }/private/newpath/path.jsp">공지사항</a></li>
-            <li><a class="dropdown-item" href="${pageContext.request.contextPath }/private/newpath/qanda.jsp">자주하는 질문</a></li>
-            <li><a class="dropdown-item" href="${pageContext.request.contextPath }/private/newpath/ask.jsp">문의내역</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath }/private/newpath/ask.jsp">자주하는 질문</a></li>
+            <li><a class="dropdown-item" href="${pageContext.request.contextPath }/private/newpath/qanda/list.jsp">문의내역</a></li>
           </ul>
         </li>
       </ul>
@@ -57,5 +57,6 @@
 			<a href="${pageContext.request.contextPath }/users/signup_form.jsp">회원가입</a></li>
 	</div>
 </nav>
+
 </body>
 </html>
